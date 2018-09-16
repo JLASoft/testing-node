@@ -1,0 +1,23 @@
+{
+  "name": "api-inmobiliaria",
+  "version": "0.0.1",
+  "description": "API Inmobiliaria",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose L. Alvarado Santamaria (gandalf_gris_89@hotmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.14",
+    "mongoose-unique-validator": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
